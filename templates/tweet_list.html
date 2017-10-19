@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content%}
+	<h1>{{ title }} is working!</h1>
+
+
+	<div class="col-sm-6 col-sm-offset-3">
+	
+	{% for obj in object_list %}<!-- Poster alle tweetene-->
+	<div class="row">
+		<div class="col-sm-12">
+			{{ obj.html|safe }}
+		</div><!--col-->
+	
+	</div><!--row-->
+	{% endfor %}
+
+
+	<div class="pagination"><!-- Paginator kode-->
+	    <span class="step-links">
+	        {% if object_list.has_previous %}
+	            <a href="?{{ page_request_var }}={{ object_list.previous_page_number }}">previous</a>
+	        {% endif %}
+
+	        <span class="current">
+	            Page {{ object_list.number }} of {{ object_list.paginator.num_pages }}.
+	        </span>
+
+	        {% if object_list.has_next %}
+	            <a href="?{{ page_request_var }}={{ object_list.next_page_number }}">next</a>
+	        {% endif %}
+	    </span>
+	</div>
+
+	
+	</div>
+
+{% endblock content %}

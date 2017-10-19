@@ -1,0 +1,374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"qu",
+				"queryset_list"
+			],
+			[
+				"que",
+				"queryset_list"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"pa",
+				"page_request_var"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"o",
+				"objects"
+			],
+			[
+				"Pos",
+				"PostManager"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"Po",
+				"PostManager"
+			],
+			[
+				"h",
+				"Http404"
+			],
+			[
+				"ur",
+				"urlify"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"slug",
+				"slugify"
+			],
+			[
+				"pre",
+				"pre_save_post_reciever"
+			],
+			[
+				"he",
+				"height_field"
+			],
+			[
+				"col",
+				"col-sm-6"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"d",
+				"django"
+			],
+			[
+				"Ht",
+				"HttpResponseRedirect"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"post",
+				"post_delete"
+			],
+			[
+				"po",
+				"post_detail"
+			],
+			[
+				"pos",
+				"post_create"
+			],
+			[
+				"en",
+				"environ"
+			],
+			[
+				"bilde",
+				"bilde_navn"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"declarative",
+				"declarative_base"
+			],
+			[
+				"se",
+				"Session"
+			],
+			[
+				"fotn",
+				"font-size"
+			],
+			[
+				"al",
+				"alBilder"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"albu",
+				"albumList"
+			],
+			[
+				"album",
+				"albumKnapp"
+			],
+			[
+				"list",
+				"listOfAlbum"
+			],
+			[
+				"i",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"hash",
+				"hashUrl"
+			],
+			[
+				"lis",
+				"ListOfAlbum"
+			],
+			[
+				"get",
+				"getBilder"
+			],
+			[
+				"alb",
+				"albNavn"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/helge/trydjango/src/trydjango19/urls.py",
+		"/home/helge/trydjango/src/static/css/base.css",
+		"/home/helge/trydjango/src/templates/post_form.html",
+		"/home/helge/trydjango/src/templates/post_list.html",
+		"/home/helge/trydjango/src/templates/post_detail.html",
+		"/home/helge/trydjango/src/templates/base.html",
+		"/home/helge/trydjango/src/posts/forms.py",
+		"/home/helge/trydjango/src/posts/models.py",
+		"/home/helge/trydjango/src/posts/views.py",
+		"/home/helge/trydjango/src/posts/urls.py",
+		"/home/helge/trydjango/src/trydjango19/settings.py",
+		"/home/helge/trydjango/src/posts/templatetags/urlify.py",
+		"/home/helge/trydjango/src/posts/templatetags/__init__.py",
+		"/home/helge/trydjango/src/posts/__init__.py",
+		"/home/helge/trydjango/src/posts/migrations/0001_initial.py",
+		"/home/helge/trydjango/src/posts/admin.py",
+		"/home/helge/trydjango/src/templates/messages_display.html",
+		"/home/helge/trydjango/src/templates/index.html",
+		"/home/helge/trydjango/src/posts/tests.py",
+		"/home/helge/trydjango/src/posts/apps.py",
+		"/home/helge/Documents/Skarnsundet/templates/album.html",
+		"/home/helge/Documents/Skarnsundet/static/home.js",
+		"/home/helge/Documents/Skarnsundet/templates/home.html",
+		"/etc/postgresql/9.5/main/pg_hba.conf",
+		"/home/helge/Documents/Skarnsundet/static/home.css",
+		"/home/helge/Documents/Skarnsundet/static/album.css",
+		"/home/helge/Documents/Skarnsundet/static/album.js",
+		"/home/helge/Documents/Skarnsundet/procfile",
+		"/home/helge/Documents/Skarnsundet/templates/index.html",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/skarnsundet/.gitignore",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/skarnsundet/Procfile",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/skarnsundet/start.py",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/skarnsundet/requirements.txt",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/requirements.txt",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/start.py",
+		"/home/helge/Documents/Skarnsundet/Helgefy.github.io/start"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index",
+			"\"pics/skarnsundbrua.jpg\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "__init__.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
