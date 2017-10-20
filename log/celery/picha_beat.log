@@ -1,0 +1,172 @@
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+[2017-10-20 11:09:02,793: INFO/MainProcess] beat: Starting...
+[2017-10-20 11:09:03,745: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:12:00,082: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:15:00,000: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:18:00,009: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:21:00,085: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:24:00,001: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:27:00,050: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:30:00,000: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+celery beat v4.1.0 (latentcall) is starting.
+[nltk_data] Downloading package punkt to /home/helge/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /home/helge/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package treebank to /home/helge/nltk_data...
+[nltk_data]   Package treebank is already up-to-date!
+Task file
+__    -    ... __   -        _
+LocalTime -> 2017-10-20 11:09:02
+Configuration ->
+    . broker -> amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 minutes (300s)
+[2017-10-20 11:32:02,083: INFO/MainProcess] beat: Starting...
+[2017-10-20 11:33:00,898: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:36:00,001: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+celery beat v4.1.0 (latentcall) is starting.
+[nltk_data] Downloading package punkt to /home/helge/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /home/helge/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package treebank to /home/helge/nltk_data...
+[nltk_data]   Package treebank is already up-to-date!
+Task file
+__    -    ... __   -        _
+LocalTime -> 2017-10-20 11:32:02
+Configuration ->
+    . broker -> amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 minutes (300s)
+[2017-10-20 11:49:26,762: INFO/MainProcess] beat: Starting...
+[2017-10-20 11:49:27,860: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:51:00,014: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:54:00,000: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+[2017-10-20 11:57:00,000: INFO/MainProcess] Scheduler: Sending due task get-tweets (gatherer.tasks.getTweets)
+celery beat v4.1.0 (latentcall) is starting.
+[nltk_data] Downloading package punkt to /home/helge/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /home/helge/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package treebank to /home/helge/nltk_data...
+[nltk_data]   Package treebank is already up-to-date!
+Task file
+__    -    ... __   -        _
+LocalTime -> 2017-10-20 11:49:26
+Configuration ->
+    . broker -> amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+    . loader -> celery.loaders.app.AppLoader
+    . scheduler -> celery.beat.PersistentScheduler
+    . db -> celerybeat-schedule
+    . logfile -> [stderr]@%INFO
+    . maxinterval -> 5.00 minutes (300s)

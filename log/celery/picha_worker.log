@@ -1,0 +1,355 @@
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/bin/celery", line 11, in <module>
+    sys.exit(main())
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/__main__.py", line 14, in main
+    _main()
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 326, in main
+    cmd.execute_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/celery.py", line 488, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 279, in execute_from_commandline
+    argv = self.setup_app_from_commandline(argv)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 481, in setup_app_from_commandline
+    self.app = self.find_app(app)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 503, in find_app
+    return find_app(app, symbol_by_name=self.symbol_by_name)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/utils.py", line 355, in find_app
+    sym = symbol_by_name(app, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/bin/base.py", line 506, in symbol_by_name
+    return imports.symbol_by_name(name, imp=imp)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/kombu/utils/imports.py", line 56, in symbol_by_name
+    module = imp(module_name, package=package, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/utils/imports.py", line 101, in import_from_cwd
+    return imp(module, package=package)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named tvitapp
+[2017-10-20 11:09:03,951: INFO/MainProcess] Connected to amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+[2017-10-20 11:09:04,874: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-20 11:09:08,867: INFO/MainProcess] mingle: all alone
+[2017-10-20 11:09:12,040: WARNING/MainProcess] /home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-20 11:09:12,041: INFO/MainProcess] celery@helge-Lenovo-Z51-70 ready.
+[2017-10-20 11:09:12,043: INFO/MainProcess] Received task: gatherer.tasks.getTweets[686fa139-c69e-4c48-9e42-26b98b7d11be]  
+[2017-10-20 11:11:24,656: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[686fa139-c69e-4c48-9e42-26b98b7d11be]: Got Tweets
+[2017-10-20 11:11:24,695: ERROR/ForkPoolWorker-4] Task gatherer.tasks.getTweets[686fa139-c69e-4c48-9e42-26b98b7d11be] raised unexpected: UnicodeEncodeError('ascii', u' \U0001f64c\U0001f3a4\U0001f3b6 #FlashbackFriday . Misfits 2-1 SKT. \xc9PICOOOO.', 1, 4, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 1-3: ordinal not in range(128)
+[2017-10-20 11:12:00,219: INFO/MainProcess] Received task: gatherer.tasks.getTweets[f55e5c84-02e9-4901-8bbf-fb290f443cd3]  
+[2017-10-20 11:14:13,212: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[f55e5c84-02e9-4901-8bbf-fb290f443cd3]: Got Tweets
+[2017-10-20 11:14:13,246: ERROR/ForkPoolWorker-3] Task gatherer.tasks.getTweets[f55e5c84-02e9-4901-8bbf-fb290f443cd3] raised unexpected: UnicodeEncodeError('ascii', u' Misfits 2-1 SKT. \xc9PICOOOO. Please support us.', 18, 19, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 18: ordinal not in range(128)
+[2017-10-20 11:15:00,205: INFO/MainProcess] Received task: gatherer.tasks.getTweets[de0596a3-8f32-4fb2-a2ad-5807380a45de]  
+[2017-10-20 11:16:57,759: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[de0596a3-8f32-4fb2-a2ad-5807380a45de]: Got Tweets
+[2017-10-20 11:16:57,768: ERROR/ForkPoolWorker-4] Task gatherer.tasks.getTweets[de0596a3-8f32-4fb2-a2ad-5807380a45de] raised unexpected: UnicodeEncodeError('ascii', u' Misfits 2-1 SKT. \xc9PICOOOO. Please support us.', 18, 19, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 18: ordinal not in range(128)
+[2017-10-20 11:18:00,219: INFO/MainProcess] Received task: gatherer.tasks.getTweets[c907d12b-d6f5-49c0-bcb4-a9029d871c66]  
+[2017-10-20 11:19:57,840: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[c907d12b-d6f5-49c0-bcb4-a9029d871c66]: Got Tweets
+[2017-10-20 11:19:57,848: ERROR/ForkPoolWorker-3] Task gatherer.tasks.getTweets[c907d12b-d6f5-49c0-bcb4-a9029d871c66] raised unexpected: UnicodeEncodeError('ascii', u' Misfits 2-1 SKT. \xc9PICOOOO. Please support us.', 18, 19, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 18: ordinal not in range(128)
+[2017-10-20 11:21:00,239: INFO/MainProcess] Received task: gatherer.tasks.getTweets[115ca09a-3c7f-47e7-ba01-3e6a58ab804e]  
+[2017-10-20 11:22:58,208: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[115ca09a-3c7f-47e7-ba01-3e6a58ab804e]: Got Tweets
+[2017-10-20 11:22:58,216: ERROR/ForkPoolWorker-4] Task gatherer.tasks.getTweets[115ca09a-3c7f-47e7-ba01-3e6a58ab804e] raised unexpected: UnicodeEncodeError('ascii', u' Misfits 2-1 SKT. \xc9PICOOOO. Please support us.', 18, 19, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 18: ordinal not in range(128)
+[2017-10-20 11:24:00,155: INFO/MainProcess] Received task: gatherer.tasks.getTweets[c3ac9f34-79ca-4173-be91-2b692eb73dd4]  
+[2017-10-20 11:25:57,612: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[c3ac9f34-79ca-4173-be91-2b692eb73dd4]: Got Tweets
+[2017-10-20 11:25:57,621: ERROR/ForkPoolWorker-3] Task gatherer.tasks.getTweets[c3ac9f34-79ca-4173-be91-2b692eb73dd4] raised unexpected: UnicodeEncodeError('ascii', u' \xc9PICOOOO. Misfits 2-1 SKT. Please support us.', 1, 2, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 1: ordinal not in range(128)
+[2017-10-20 11:27:00,330: INFO/MainProcess] Received task: gatherer.tasks.getTweets[fb96f531-0164-42c1-a03f-152ea69499b2]  
+[2017-10-20 11:28:57,474: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[fb96f531-0164-42c1-a03f-152ea69499b2]: Got Tweets
+[2017-10-20 11:28:57,483: ERROR/ForkPoolWorker-4] Task gatherer.tasks.getTweets[fb96f531-0164-42c1-a03f-152ea69499b2] raised unexpected: UnicodeEncodeError('ascii', u' \xc9PICOOOO. Misfits 2-1 SKT. Please support us.', 1, 2, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 1: ordinal not in range(128)
+[2017-10-20 11:30:00,194: INFO/MainProcess] Received task: gatherer.tasks.getTweets[faf0a50b-f108-4582-b965-0b5381bd12c7]  
+
+worker: Warm shutdown (MainProcess)
+[2017-10-20 11:31:57,857: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[faf0a50b-f108-4582-b965-0b5381bd12c7]: Got Tweets
+[2017-10-20 11:31:57,864: ERROR/ForkPoolWorker-3] Task gatherer.tasks.getTweets[faf0a50b-f108-4582-b965-0b5381bd12c7] raised unexpected: UnicodeEncodeError('ascii', u' \xc9PICOOOO. Misfits 2-1 SKT. Please support us.', 1, 2, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 63, in getTweets
+    tekstSum2 += ' ' + tekst
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 1: ordinal not in range(128)
+[nltk_data] Downloading package punkt to /home/helge/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /home/helge/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package treebank to /home/helge/nltk_data...
+[nltk_data]   Package treebank is already up-to-date!
+Task file
+ 
+ -------------- celery@helge-Lenovo-Z51-70 v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-35-generic-x86_64-with-Ubuntu-16.04-xenial 2017-10-20 11:09:02
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tvitapp:0x7f63cf9b5c10
+- ** ---------- .> transport:   amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . gatherer.tasks.getTweets
+  . tvitapp.celery.debug_task
+
+[2017-10-20 11:32:03,074: INFO/MainProcess] Connected to amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+[2017-10-20 11:32:03,996: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-20 11:32:07,990: INFO/MainProcess] mingle: all alone
+[2017-10-20 11:32:10,857: WARNING/MainProcess] /home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-20 11:32:10,857: INFO/MainProcess] celery@helge-Lenovo-Z51-70 ready.
+[2017-10-20 11:33:01,752: INFO/MainProcess] Received task: gatherer.tasks.getTweets[a3494961-9621-4c7e-9bb8-333816162966]  
+[2017-10-20 11:35:14,258: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[a3494961-9621-4c7e-9bb8-333816162966]: Got Tweets
+[2017-10-20 11:35:14,293: ERROR/ForkPoolWorker-4] Task gatherer.tasks.getTweets[a3494961-9621-4c7e-9bb8-333816162966] raised unexpected: UnicodeEncodeError('ascii', u' \xc9PICOOOO. Misfits 2-1 SKT. Please support us.', 1, 2, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 64, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 1: ordinal not in range(128)
+[2017-10-20 11:36:00,336: INFO/MainProcess] Received task: gatherer.tasks.getTweets[6cccb4f7-1777-4884-9133-9e5895a47d55]  
+
+worker: Warm shutdown (MainProcess)
+[2017-10-20 11:38:43,155: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[6cccb4f7-1777-4884-9133-9e5895a47d55]: Got Tweets
+[2017-10-20 11:38:43,196: ERROR/ForkPoolWorker-3] Task gatherer.tasks.getTweets[6cccb4f7-1777-4884-9133-9e5895a47d55] raised unexpected: UnicodeEncodeError('ascii', u' Please support us. \xc9PICOOOO. RT if u agree.', 20, 21, 'ordinal not in range(128)')
+Traceback (most recent call last):
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 374, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/app/trace.py", line 629, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/helge/Documents/tvitapp2/gatherer/tasks.py", line 64, in getTweets
+    postURL = 'https://api.twitter.com/1.1/statuses/update.json?' + urllib.urlencode({'status': tekstSum2})
+  File "/usr/lib/python2.7/urllib.py", line 1343, in urlencode
+    v = quote_plus(str(v))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\xc9' in position 20: ordinal not in range(128)
+[nltk_data] Downloading package punkt to /home/helge/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /home/helge/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package treebank to /home/helge/nltk_data...
+[nltk_data]   Package treebank is already up-to-date!
+Task file
+ 
+ -------------- celery@helge-Lenovo-Z51-70 v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-35-generic-x86_64-with-Ubuntu-16.04-xenial 2017-10-20 11:32:02
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tvitapp:0x7fdc6ffa4c10
+- ** ---------- .> transport:   amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . gatherer.tasks.getTweets
+  . tvitapp.celery.debug_task
+
+[2017-10-20 11:49:27,861: INFO/MainProcess] Connected to amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+[2017-10-20 11:49:28,578: INFO/MainProcess] mingle: searching for neighbors
+[2017-10-20 11:49:32,775: INFO/MainProcess] mingle: all alone
+[2017-10-20 11:49:36,075: WARNING/MainProcess] /home/helge/Documents/tvitapp2/venv/local/lib/python2.7/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2017-10-20 11:49:36,075: INFO/MainProcess] celery@helge-Lenovo-Z51-70 ready.
+[2017-10-20 11:49:36,076: INFO/MainProcess] Received task: gatherer.tasks.getTweets[b5a9bf2f-6b4e-465e-8e48-69d9ed01b39c]  
+[2017-10-20 11:51:00,225: INFO/MainProcess] Received task: gatherer.tasks.getTweets[3ddd1e68-14f1-4c5c-a61c-a49c4e41d7bc]  
+[2017-10-20 11:51:26,857: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[b5a9bf2f-6b4e-465e-8e48-69d9ed01b39c]: Got Tweets
+[2017-10-20 11:51:27,265: WARNING/ForkPoolWorker-4] ({'content-length': '1941', 'x-tsa-request-body-time': '0', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'x-connection-hash': 'e765b3a5c7b9281ad0bd2d680a8a6139', 'x-twitter-response-tags': 'BouncerCompliant', 'cache-control': 'no-cache, no-store, must-revalidate, pre-check=0, post-check=0', 'status': '200', 'content-disposition': 'attachment; filename=json.json', 'set-cookie': 'personalization_id="v1_q38EN0IRq6vX66m+GeueOA=="; Expires=Sun, 20 Oct 2019 11:51:27 UTC; Path=/; Domain=.twitter.com, lang=no; Path=/, guest_id=v1%3A150850028698505224; Expires=Sun, 20 Oct 2019 11:51:27 UTC; Path=/; Domain=.twitter.com', 'expires': 'Tue, 31 Mar 1981 05:00:00 GMT', 'x-access-level': 'read-write', 'last-modified': 'Fri, 20 Oct 2017 11:51:27 GMT', '-content-encoding': 'gzip', 'pragma': 'no-cache', 'date': 'Fri, 20 Oct 2017 11:51:27 GMT', 'x-response-time': '266', 'x-transaction': '00584cda00f61e16', 'strict-transport-security': 'max-age=631138519', 'server': 'tsa_o', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json;charset=utf-8'}, '{"created_at":"Fri Oct 20 11:51:27 +0000 2017","id":921343098243964928,"id_str":"921343098243964928","text":"Please support us. Misfits 2-1 SKT. You\'re watching NA winning against SKT right now.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\\u003ca href=\\"https:\\/\\/placeholder123.com\\" rel=\\"nofollow\\"\\u003eSullytweet\\u003c\\/a\\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":908328492428922880,"id_str":"908328492428922880","name":"Jake Sully","screen_name":"JacobSulivan1","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":3,"friends_count":1,"listed_count":0,"created_at":"Thu Sep 14 13:56:03 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":6,"lang":"no","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_normal.png","profile_image_url_https":"https:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}')
+[2017-10-20 11:51:27,266: INFO/ForkPoolWorker-4] Task gatherer.tasks.getTweets[b5a9bf2f-6b4e-465e-8e48-69d9ed01b39c] succeeded in 110.904967774s: None
+[2017-10-20 11:52:50,512: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[3ddd1e68-14f1-4c5c-a61c-a49c4e41d7bc]: Got Tweets
+[2017-10-20 11:52:50,718: WARNING/ForkPoolWorker-3] ({'content-length': '60', 'x-tsa-request-body-time': '0', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'x-connection-hash': '8b456b1f8e6848cdb94509f4ee3dfd90', 'x-twitter-response-tags': 'BouncerCompliant', 'cache-control': 'no-cache, no-store, must-revalidate, pre-check=0, post-check=0', 'status': '403', 'content-disposition': 'attachment; filename=json.json', 'set-cookie': 'personalization_id="v1_rdHY6ivzzmj1Zn8O8BJOug=="; Expires=Sun, 20 Oct 2019 11:52:50 UTC; Path=/; Domain=.twitter.com, lang=no; Path=/, guest_id=v1%3A150850037063455187; Expires=Sun, 20 Oct 2019 11:52:50 UTC; Path=/; Domain=.twitter.com', 'expires': 'Tue, 31 Mar 1981 05:00:00 GMT', 'x-access-level': 'read-write', 'last-modified': 'Fri, 20 Oct 2017 11:52:50 GMT', '-content-encoding': 'gzip', 'pragma': 'no-cache', 'date': 'Fri, 20 Oct 2017 11:52:50 GMT', 'x-response-time': '118', 'x-transaction': '00fbb3ae00775a86', 'strict-transport-security': 'max-age=631138519', 'server': 'tsa_o', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json;charset=utf-8'}, '{"errors":[{"code":187,"message":"Status is a duplicate."}]}')
+[2017-10-20 11:52:50,719: INFO/ForkPoolWorker-3] Task gatherer.tasks.getTweets[3ddd1e68-14f1-4c5c-a61c-a49c4e41d7bc] succeeded in 110.491175867s: None
+[2017-10-20 11:54:00,128: INFO/MainProcess] Received task: gatherer.tasks.getTweets[ef769a94-2a9a-4582-8525-86fcbb3ef0ba]  
+[2017-10-20 11:55:33,439: INFO/ForkPoolWorker-4] gatherer.tasks.getTweets[ef769a94-2a9a-4582-8525-86fcbb3ef0ba]: Got Tweets
+[2017-10-20 11:55:33,837: WARNING/ForkPoolWorker-4] ({'content-length': '1941', 'x-tsa-request-body-time': '1', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'x-connection-hash': 'e765b3a5c7b9281ad0bd2d680a8a6139', 'x-twitter-response-tags': 'BouncerCompliant', 'cache-control': 'no-cache, no-store, must-revalidate, pre-check=0, post-check=0', 'status': '200', 'content-disposition': 'attachment; filename=json.json', 'set-cookie': 'personalization_id="v1_nIedcgB9Pl4IxRLJ1guilg=="; Expires=Sun, 20 Oct 2019 11:55:33 UTC; Path=/; Domain=.twitter.com, lang=no; Path=/, guest_id=v1%3A150850053352946344; Expires=Sun, 20 Oct 2019 11:55:33 UTC; Path=/; Domain=.twitter.com', 'expires': 'Tue, 31 Mar 1981 05:00:00 GMT', 'x-access-level': 'read-write', 'last-modified': 'Fri, 20 Oct 2017 11:55:33 GMT', '-content-encoding': 'gzip', 'pragma': 'no-cache', 'date': 'Fri, 20 Oct 2017 11:55:33 GMT', 'x-response-time': '233', 'x-transaction': '005a2482001d16bd', 'strict-transport-security': 'max-age=631138519', 'server': 'tsa_o', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json;charset=utf-8'}, '{"created_at":"Fri Oct 20 11:55:33 +0000 2017","id":921344132290932737,"id_str":"921344132290932737","text":"Please support us. Misfits 2-1 SKT. You\'re watching NA winning against SKT right now.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\\u003ca href=\\"https:\\/\\/placeholder123.com\\" rel=\\"nofollow\\"\\u003eSullytweet\\u003c\\/a\\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":908328492428922880,"id_str":"908328492428922880","name":"Jake Sully","screen_name":"JacobSulivan1","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":3,"friends_count":1,"listed_count":0,"created_at":"Thu Sep 14 13:56:03 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":6,"lang":"no","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_normal.png","profile_image_url_https":"https:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}')
+[2017-10-20 11:55:33,838: INFO/ForkPoolWorker-4] Task gatherer.tasks.getTweets[ef769a94-2a9a-4582-8525-86fcbb3ef0ba] succeeded in 93.70956731s: None
+[2017-10-20 11:57:00,158: INFO/MainProcess] Received task: gatherer.tasks.getTweets[ee95bb4f-6826-4229-9c46-b96df6bcd484]  
+
+worker: Warm shutdown (MainProcess)
+[2017-10-20 11:58:32,843: INFO/ForkPoolWorker-3] gatherer.tasks.getTweets[ee95bb4f-6826-4229-9c46-b96df6bcd484]: Got Tweets
+[2017-10-20 11:58:33,246: WARNING/ForkPoolWorker-3] ({'content-length': '1941', 'x-tsa-request-body-time': '0', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'x-connection-hash': '8b456b1f8e6848cdb94509f4ee3dfd90', 'x-twitter-response-tags': 'BouncerCompliant', 'cache-control': 'no-cache, no-store, must-revalidate, pre-check=0, post-check=0', 'status': '200', 'content-disposition': 'attachment; filename=json.json', 'set-cookie': 'personalization_id="v1_yDI6WqyNUG9NR4FBi+fHBA=="; Expires=Sun, 20 Oct 2019 11:58:33 UTC; Path=/; Domain=.twitter.com, lang=no; Path=/, guest_id=v1%3A150850071293623974; Expires=Sun, 20 Oct 2019 11:58:33 UTC; Path=/; Domain=.twitter.com', 'expires': 'Tue, 31 Mar 1981 05:00:00 GMT', 'x-access-level': 'read-write', 'last-modified': 'Fri, 20 Oct 2017 11:58:33 GMT', '-content-encoding': 'gzip', 'pragma': 'no-cache', 'date': 'Fri, 20 Oct 2017 11:58:33 GMT', 'x-response-time': '324', 'x-transaction': '005abc170036782f', 'strict-transport-security': 'max-age=631138519', 'server': 'tsa_o', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json;charset=utf-8'}, '{"created_at":"Fri Oct 20 11:58:32 +0000 2017","id":921344884778438656,"id_str":"921344884778438656","text":"Please support us. Misfits 2-1 SKT. You\'re watching NA winning against SKT right now.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\\u003ca href=\\"https:\\/\\/placeholder123.com\\" rel=\\"nofollow\\"\\u003eSullytweet\\u003c\\/a\\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":908328492428922880,"id_str":"908328492428922880","name":"Jake Sully","screen_name":"JacobSulivan1","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":3,"friends_count":1,"listed_count":0,"created_at":"Thu Sep 14 13:56:03 +0000 2017","favourites_count":0,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":6,"lang":"no","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_normal.png","profile_image_url_https":"https:\\/\\/abs.twimg.com\\/sticky\\/default_profile_images\\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}')
+[2017-10-20 11:58:33,247: INFO/ForkPoolWorker-3] Task gatherer.tasks.getTweets[ee95bb4f-6826-4229-9c46-b96df6bcd484] succeeded in 93.086755732s: None
+[nltk_data] Downloading package punkt to /home/helge/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /home/helge/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package treebank to /home/helge/nltk_data...
+[nltk_data]   Package treebank is already up-to-date!
+Task file
+ 
+ -------------- celery@helge-Lenovo-Z51-70 v4.1.0 (latentcall)
+---- **** ----- 
+--- * ***  * -- Linux-4.10.0-35-generic-x86_64-with-Ubuntu-16.04-xenial 2017-10-20 11:49:26
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tvitapp:0x7f10e2d4dc10
+- ** ---------- .> transport:   amqp://Tvw3I51k:**@brown-clover-462.bigwig.lshift.net:10823/D70Hofy7mYca
+- ** ---------- .> results:     disabled://
+- *** --- * --- .> concurrency: 4 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . gatherer.tasks.getTweets
+  . tvitapp.celery.debug_task
+

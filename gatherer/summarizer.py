@@ -15,7 +15,7 @@ def summarize(text, n):
 	rank = defaultdict(int)
 	for i,sent in enumerate(words):
 		for w in sent:
-			rank[i] -= 0.1 #straffer lengre settninger
+			rank[i] -= 0.3 #straffer lengre settninger
 			if w in freq:
 				rank[i] += freq[w]
 	index = nlargest(n,rank, key=rank.get)
